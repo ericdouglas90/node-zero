@@ -24,4 +24,24 @@ Content-Type: application/json
 DELETE http://localhost:3333/videos/b53ebe1f-2381-4c97-b944-dc438e929db9
 
 ###
-GET https://node-zero-sxt3.onrender.com
+GET https://node-zero-sxt3.onrender.com/videos
+
+###
+POST https://node-zero-sxt3.onrender.com/videos
+Content-Type: application/json
+
+{
+    "title": "Niver da Clivia",
+    "description": "Muito massa",
+    "duration": 20
+}
+
+###
+PUT https://node-zero-sxt3.onrender.com/videos/3794ea1d-4bc5-4b90-8986-989adcf95afa
+Content-Type: application/json
+
+{
+    "title": "Video 01",
+    "description": "Node é massa demais",
+    "duration": 180
+}
