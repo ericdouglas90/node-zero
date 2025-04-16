@@ -22,3 +22,6 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:3333/videos/b53ebe1f-2381-4c97-b944-dc438e929db9
+
+###
+GET https://node-zero-sxt3.onrender.com
